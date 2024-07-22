@@ -1,0 +1,75 @@
+@using PhoneReclaim.Data;
+@using PhoneReclaim.Data.Models;
+@model AppUser
+@{
+  ViewData["Title"] = "Profile";
+}
+<div class="row">
+    <div class="col-md-4">
+        <div class="profile-img">
+            <img class="mb-5" src="@Model.ImageUrl" alt="" width="200px" height="200px" />
+            <h5>
+                @Model.Name
+                <a href="/account/changeprofileimage/@Model.Id" class="ms-2"><i class="bi bi-image-fill" title="Change profile picture"></i></a>
+
+            </h5>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="profile-head">
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item me-2">
+                    <h4 data-toggle="tab">About</h4>
+                </li>
+                <li class="nav-item">
+                    <a href="/account/edit/@Model.Id"><i class="bi bi-pencil text-warning me-2" title="Edit"></i></a>
+                    <a href="/account/delete/@Model.Id"><i class="bi bi-trash3 text-danger me-2" title="Delete"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="tab-content profile-tab" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>User Id</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Model.Id</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Name</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Model.Name</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Email</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Model.Email</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Phone</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Model.Phone</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href="/account/wishlist" class="btn btn-outline-primary">View Wishlist</a>
+            <a href="/account/userproduct" class="btn btn-outline-primary">View Product</a>
+        </div>
+    </div>

@@ -1,0 +1,11 @@
+@using PhoneReclaim.Data.Models;
+@{
+  ViewData["Title"] = "Delete User";
+}
+@model AppUser
+<h2 class="text-danger">Are you sure to delete profile (@Model.Name)</h2>
+<form asp-action="DeleteConfirm" asp-controller="Account" asp-route-id="@Model.Id" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-outline-danger">Delete</button>
+    <a href="/account/profile" class="btn btn-outline-success">Cancel</a>
+</form> 

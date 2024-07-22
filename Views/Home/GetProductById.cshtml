@@ -1,0 +1,101 @@
+@using PhoneReclaim.Controllers;
+@using PhoneReclaim.Data.Models;
+@using Microsoft.AspNetCore.Identity
+
+@inject UserManager<AppUser> _usermanager
+@inject PhoneReclaimDb _db
+@model Product
+@{
+    ViewData["Title"] = Model.Name;
+    var recommendedProducts = ViewBag.RecommendedProduct as List<Product>;
+}
+
+<div class="container">
+    <div class="main-content">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="@Model.ImagePath" class="img-fluid" alt="@Model.Name">
+            </div>
+            <div class="col-md-6">
+                <h1>@Model.Name</h1>
+                <p class="lead">$@Model.Price</p>
+                <p>@Model.Description</p>
+                <p><strong>Added By:</strong> @ViewBag.UserName</p>
+                <p><strong>Phone Number:</strong> @ViewBag.PhoneNumber</p>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    if (WishlistHelper.IsInWishlist(Model.Id, _usermanager, _db, User))
+                    {
+                        <form asp-action="Toggle" asp-controller="Home" method="post">
+                            <input type="hidden" name="productId" value="@Model.Id" />
+                            <button type="submit" class="btn btn-danger">Remove from Wishlist</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <form asp-action="Toggle" asp-controller="Home" method="post">
+                            <input type="hidden" name="productId" value="@Model.Id" />
+                            <button type="submit" class="btn btn-outline-primary">Add to Wishlist</button>
+                        </form>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (recommendedProducts != null && recommendedProducts.Count > 0)
+{
+    <div class="container mt-5">
+    <h2>Recommended Products</h2>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+
+            @foreach (var recommendedProduct in recommendedProducts)
+                {
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                                data-mdb-ripple-color="light">
+                                <a href="/home/getproductbyid/@recommendedProduct.Id"><img src="@recommendedProduct.ImagePath"
+                                        class="card-img-top img-fluid" style="height: 200px;" /></a>
+                                <a href="/home/getproductbyid/@recommendedProduct.Id">
+                                    <h5><span class="badge ms-2" style="background: green;">@recommendedProduct.Condition</span>
+                                    </h5>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <a class="text-decoration-none text-dark font-monospace"
+                                    href="/home/getproductbyid/@recommendedProduct.Id" class="text-reset">
+                                    <h5 class="card-title">@recommendedProduct.Name</h5>
+                                </a>
+                                <a class="text-decoration-none text-secondary font-monospace"
+                                    href="/home/getproductbyid/@recommendedProduct.Id" class="text-reset">
+                                    <p>@recommendedProduct.Brand</p>
+                                </a>
+                                <p class="text-secondary">$@recommendedProduct.Price</p>
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    if (WishlistHelper.IsInWishlist(recommendedProduct.Id, _usermanager, _db, User))
+                                    {
+                                        <form asp-action="Toggle" asp-controller="Home" method="post">
+                                            <input type="hidden" name="productId" value="@recommendedProduct.Id" />
+                                            <button type="submit" class="btn btn-outline-danger">Remove from Wishlist</button>
+                                        </form>
+                                    }
+                                    else
+                                    {
+                                        <form asp-action="Toggle" asp-controller="Home" method="post">
+                                            <input type="hidden" name="productId" value="@recommendedProduct.Id" />
+                                            <button type="submit" class="btn btn-outline-primary">Add to Wishlist</button>
+                                        </form>
+                                    }
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+}

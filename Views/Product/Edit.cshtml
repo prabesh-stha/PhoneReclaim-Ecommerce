@@ -1,0 +1,58 @@
+@model Product
+@{
+  ViewData["Title"] = "Edit";
+}
+<h2 class="row mb-3">Edit product</h2>
+<form asp-action="Edit" asp-controller="Product" method="post" enctype="multipart/form-data">
+<input type="hidden" asp-for="Id" />
+  <div class="row mb-3">
+    <label asp-for="Name" class="col-sm-2 col-form-label"></label>
+    <div class="col-sm-10">
+      <input asp-for="Name" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label asp-for="Brand" class="col-sm-2 col-form-label"></label>
+    <div class="col-sm-10">
+      <select asp-for="Brand" class="form-select">
+        <option selected>Select Brand</option>
+        @foreach (var g in Enum.GetValues<Brand>())
+        {
+          <option value="@g">@g</option>
+        }
+      </select>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label asp-for="Condition" class="col-sm-2 col-form-label"></label>
+    <div class="col-sm-10">
+      <select asp-for="Condition" class="form-select">
+        <option selected>Condition</option>
+        @foreach (var g in Enum.GetValues<Condition>())
+        {
+          <option value="@g">@g</option>
+        }
+      </select>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label asp-for="Price" class="col-sm-2 col-form-label"></label>
+    <div class="col-sm-10">
+      <input asp-for="Price" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label asp-for="Description" class="col-sm-2 col-form-label"></label>
+    <div class="col-sm-10">
+      <textarea asp-for="Description" rows="4" cols="50" placeholder="Short description of Phone...."></textarea>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label class="col-sm-2 col-form-label">Change Image</label>
+    <div class="col-sm-10">
+      <input type="file" name="imageFile" accept=".jpg,.jpeg,.png,.gif" class="form-control" />
+    </div>
+  </div>
+  <button type="submit" class="btn btn-outline-success">Save Changes</button>
+  <a href="/home/index" class="btn btn-outline-danger">Cancel</a>
+</form>

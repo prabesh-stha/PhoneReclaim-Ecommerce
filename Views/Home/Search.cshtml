@@ -1,0 +1,68 @@
+@using PhoneReclaim.Controllers;
+@using PhoneReclaim.Data.Models;
+@using Microsoft.AspNetCore.Identity
+
+@inject UserManager<AppUser> _usermanager
+@inject PhoneReclaimDb _db
+@model List<Product>
+    @{
+      ViewData["Title"]=ViewBag.search as string;
+      var search = ViewBag.search as string;
+    }
+    <h5 class="mb-5 text-dark font-monospace">Searched for "@search"</h5>
+@if(Model.Count > 0)
+{
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        @foreach (var product in Model)
+        {
+            
+            <div class="col">
+                    <div class="card h-100">
+                        <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                            data-mdb-ripple-color="light">
+                            <a href="/home/getproductbyid/@product.Id"><img src="@product.ImagePath"
+                                    class="card-img-top img-fluid" style="height: 200px;" /></a>
+                            <a href="/home/getproductbyid/@product.Id">
+                                <h5><span class="badge ms-2" style="background: green;">@product.Condition</span></h5>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a class="text-decoration-none text-dark font-monospace" href="/home/getproductbyid/@product.Id"
+                                class="text-reset">
+                                <h5 class="card-title">@product.Name</h5>
+                            </a>
+                            <a class="text-decoration-none text-secondary font-monospace"
+                                href="/home/getproductbyid/@product.Id" class="text-reset">
+                                <p>@product.Brand</p>
+                            </a>
+                            <p class="text-secondary">$@product.Price</p>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                if (WishlistHelper.IsInWishlist(product.Id, _usermanager, _db, User))
+                                {
+                                    <form asp-action="Toggle" asp-controller="Home" method="post">
+                                        <input type="hidden" name="productId" value="@product.Id" />
+                                        <button type="submit" class="btn btn-outline-danger">Remove from Wishlist</button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <form asp-action="Toggle" asp-controller="Home" method="post">
+                                        <input type="hidden" name="productId" value="@product.Id" />
+                                        <button type="submit" class="btn btn-outline-primary">Add to Wishlist</button>
+                                    </form>
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+        }
+    </div>
+</div>
+
+}
+else
+{
+    <p>No results found.</p>
+}

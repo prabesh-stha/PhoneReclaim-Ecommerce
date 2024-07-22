@@ -1,0 +1,309 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/obj/Debug/net8.0/scopedcss/projectbundle/PhoneReclaim.bundle.scp.css",
+      "PackagePath": "staticwebassets/PhoneReclaim.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/Image/logo.png",
+      "PackagePath": "staticwebassets/Image/logo.png"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/productImage/26c9f6db-14e8-4ea9-842e-decba15cbc79_oneplus.jpg",
+      "PackagePath": "staticwebassets/productImage/26c9f6db-14e8-4ea9-842e-decba15cbc79_oneplus.jpg"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/productImage/3d0421a4-18ac-43e0-a967-a162c66970c5_1.jpeg",
+      "PackagePath": "staticwebassets/productImage/3d0421a4-18ac-43e0-a967-a162c66970c5_1.jpeg"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/productImage/5d4754ec-f4c2-43d3-bc33-c411aa36d39c_nokia.jpg",
+      "PackagePath": "staticwebassets/productImage/5d4754ec-f4c2-43d3-bc33-c411aa36d39c_nokia.jpg"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/productImage/8c304bb4-beec-4764-88ec-e61497a2724f_iphone.jpg",
+      "PackagePath": "staticwebassets/productImage/8c304bb4-beec-4764-88ec-e61497a2724f_iphone.jpg"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/productImage/8ff674a3-8a13-4e3b-a7b8-39ca534c8968_samsung.png",
+      "PackagePath": "staticwebassets/productImage/8ff674a3-8a13-4e3b-a7b8-39ca534c8968_samsung.png"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/productImage/default.jpg",
+      "PackagePath": "staticwebassets/productImage/default.jpg"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/productImage/e8e96502-b52d-451b-ae2e-724df5ac76a4_samsung.png",
+      "PackagePath": "staticwebassets/productImage/e8e96502-b52d-451b-ae2e-724df5ac76a4_samsung.png"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/userImage/833c46e1-a8e2-4e1a-89a8-4212266fb383_Illustration06-modified.png",
+      "PackagePath": "staticwebassets/userImage/833c46e1-a8e2-4e1a-89a8-4212266fb383_Illustration06-modified.png"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/userImage/aeefbce8-4807-4388-9821-45ad53fbeb30_Screen Shot 2022-09-23 at 18.50.35.png",
+      "PackagePath": "staticwebassets/userImage/aeefbce8-4807-4388-9821-45ad53fbeb30_Screen Shot 2022-09-23 at 18.50.35.png"
+    },
+    {
+      "Id": "/Users/mac/Desktop/Ecomerce/PhoneReclaim/wwwroot/userImage/default.jpg",
+      "PackagePath": "staticwebassets/userImage/default.jpg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.PhoneReclaim.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.PhoneReclaim.props",
+      "PackagePath": "build\\PhoneReclaim.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.PhoneReclaim.props",
+      "PackagePath": "buildMultiTargeting\\PhoneReclaim.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.PhoneReclaim.props",
+      "PackagePath": "buildTransitive\\PhoneReclaim.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

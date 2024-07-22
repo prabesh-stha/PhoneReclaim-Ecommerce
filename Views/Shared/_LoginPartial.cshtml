@@ -1,0 +1,41 @@
+@using Microsoft.AspNetCore.Identity;
+@using PhoneReclaim.Data.Models;
+@using PhoneReclaim.Controllers;
+@using PhoneReclaim.Data;
+@using PhoneReclaim.Migrations;
+
+
+@inject SignInManager<AppUser> signInManager
+
+<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between ms-auto">
+    @if (signInManager.IsSignedIn(User))
+    {
+        var user = await signInManager.UserManager.GetUserAsync(User);
+        <div class="dropdown btn btn-outline-secondary">
+            @if (User.Identity != null && !string.IsNullOrEmpty(User.Identity.Name))
+                {
+                <div id="dropdownMenuButton" data-bs-toggle="dropdown">
+                <img src="@user.ImageUrl" class="img-fluid rounded-circle" height="20px" width="20px"/>
+                @user.Name.Substring(0,user.Name.IndexOf(' '))
+                </div>
+            <ul class="dropdown-menu dropdown-menu-end ms-auto">
+                <li><a class="dropdown-item" href="/account/profile/@user.Id">View Profile</a></li>
+                <li><a class="dropdown-item" href="/account/userproduct">@user.Name.Substring(0,user.Name.IndexOf(' '))'s product</a></li>
+                <li><a class="dropdown-item" asp-action="ChangePassword" asp-controller="Account">Change Password</a></li>
+                <li><a class="dropdown-item text-danger" asp-action="Logout" asp-controller="Account">Logout</a></li>
+                
+            </ul>
+             }
+        </div>
+               
+                
+    }
+    else
+    {
+        <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item me-2"><a asp-action="Login" asp-controller="Account" class="btn btn-outline-primary">Sign In</a></li>
+            <li class="nav-item"><a asp-action="Register" asp-controller="Account" class="btn btn-outline-primary">Register</a></li>
+        </ul>
+
+    }
+</div>

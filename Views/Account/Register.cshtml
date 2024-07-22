@@ -1,0 +1,68 @@
+@using PhoneReclaim.Data.Models;
+@using PhoneReclaim.Controllers;
+@model RegisterVM
+
+@{
+  ViewData["Title"] = "Sign Up";
+}
+
+  <div class="container h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-lg-12 col-xl-11">
+        <div class="card text-black" style="border-radius: 25px;">
+          <div class="card-body p-md-5">
+            <div class="row justify-content-center">
+              <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+                <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+                <form asp-action="Register" class="mx-1 mx-md-4" enctype="multipart/form-data">
+                  <div class="mb-4 d-flex align-items-center">
+                    <i class="bi bi-person-fill me-3"></i>
+                    <input asp-for="Name" type="text" class="form-control" placeholder="Name" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                  </div>
+                  <div class="mb-4 d-flex align-items-center">
+                    <i class="bi bi-envelope-fill me-3"></i>
+                    <input asp-for="Email" type="email" class="form-control" placeholder="Email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                  </div>
+                  <div class="mb-4 d-flex align-items-center">
+                    <i class="bi bi-lock-fill me-3"></i>
+                    <input asp-for="Password" type="password" class="form-control" placeholder="Password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                  </div>
+                  <div class="mb-4 d-flex align-items-center">
+                    <i class="bi bi-key-fill me-3"></i>
+                    <input asp-for="ConfirmPassword" type="password" class="form-control"
+                      placeholder="Confirm Password" />
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                  </div>
+                  <div class="mb-4 d-flex align-items-center">
+                    <i class="bi bi-telephone-fill me-3"></i>
+                    <input asp-for="Phone" type="phone" class="form-control" placeholder="Phone" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                  </div>
+              <div class="mb-4 d-flex align-items-center">
+                    <i class="bi bi-person-square me-3"></i>
+                    <input name="imageFile" type="file" class="form-control" placeholder="Choose picture" />
+                  </div>
+                  <div class="d-flex justify-content-center mb-5">
+                    <a asp-action="Login" class="text-decoration-none">Already have an account?</a>
+                  </div>
+                  <div class="d-flex justify-content-center mb-3">
+                    <button type="submit" class="btn btn-outline-primary btn-lg">Register</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+@section Scripts{
+@{
+await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}

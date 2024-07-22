@@ -1,0 +1,14 @@
+@using PhoneReclaim.Data.Models;
+@{
+  ViewData["Title"] = "Change Profile Image";
+}
+@model AppUser
+
+<form asp-action="ChangeProfileImageFinal" asp-route-id="@Model.Id" asp-controller="Account" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="imageFile">Profile Image</label>
+        <input type="file" class="form-control-file" id="imageFile" name="imageFile">
+    </div>
+    <button type="submit" class="btn btn-outline-success">Upload</button>
+    <a asp-action="Profile" class="btn btn-outline-danger">Cancel</a>
+</form>
